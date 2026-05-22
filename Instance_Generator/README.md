@@ -81,10 +81,10 @@ n_zones  n_centers_locations  p  n_types  n_services  n_periods
 | `servtime` | `[L × T]` | Duration of each service in hours (LogNormal-based) |
 | `c_f` | `[I]` | Fixed cost to open center `i` |
 | `c_hire` | `[I × K]` | Cost to hire one worker of type `k` at center `i` |
-| `c_assig` | `[I × K × L × T]` | Cost to assign worker type `k` to service `l` |
-| `c_hour` | `[I × K × L × T]` | Hourly cost for worker type `k` performing service `l` |
-| `c_over` | `[I × K × T]` | Penalty cost per idle hour for worker type `k` |
-| `c_unmet` | `[J × L × T]` | Penalty cost per unmet demand unit |
+| `c_assig` | `[I × K × L × T]` | Cost to assign worker type `k` from center 'i' to service `l` on period 't' |
+| `c_hour` | `[I × K × L × T]` | Hourly cost for worker type `k` from center 'i' performing service `l` on period 't' |
+| `c_over` | `[I × K × T]` | Penalty cost per idle hour for worker type `k` from center 'i' on period 't' |
+| `c_unmet` | `[J × L × T]` | Penalty cost per unmet demand unit of service 'l' in zone 'j' on period 't' |
 
 ---
 
