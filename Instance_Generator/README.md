@@ -42,7 +42,7 @@ p                    = 1
 n_types              = 3
 n_services           = 4
 n_periods            = 2
-n_hours              = 0   # 0 = random in {6,7,8,9}
+n_hours              = 0   # 0 = random in {6,7,8,9}, else fixed by user
 seed                 = 33
 ```
 
