@@ -58,8 +58,6 @@ hours, lower_w, upper_w, skill_matrix, cover_matrix, demand, servtime,
 c_f, c_hire, c_assig, c_hour, c_over, c_unmet = read_instance("instances/instance_J3_p1_I5_K3_L4_T2_seed33.dat")
 ```
 
-> **Note:** All costs are automatically rescaled so that `max(c_f) < 1000`.
-
 ---
 
 ## Instance Data Description
