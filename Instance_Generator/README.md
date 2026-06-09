@@ -92,9 +92,3 @@ n_zones  n_centers_locations  p  n_types  n_services  n_periods
 
 - Julia ≥ 1.6
 - Packages: `Random`, `StatsBase`, `Distributions`, `Dates`
-
-Install with:
-```julia
-using Pkg
-Pkg.add(["StatsBase", "Distributions"])
-```
